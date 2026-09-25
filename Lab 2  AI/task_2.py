@@ -12,7 +12,6 @@ print("\nTuple\n")
 tup = ("first", "second", "third")
 for i in tup:
     print(i)
-
 # String
 print("\nString\n")
 str = "Artificial"
