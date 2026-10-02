@@ -2,12 +2,12 @@
 
 a = 1
 b = 1
-while a < 50:
+while a < 51:
     print(a, end=" ")
     temp = a
     a = b
     b = temp + b
-
+    # a, b = b, a + b
 # fizz buzz
 
 for i in range(1, 51):
